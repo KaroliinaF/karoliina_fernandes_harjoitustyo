@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <title>Glow Guardian Ihotesti</title>
+</head>
+<body>
+    <div>
+        <ul id="nav">
+            <li><a href="./index.html">Koti</a></li>
+            <li><a href="./skin_care_test.html">Ihotyyppi testi</a></li>
+            <li><a href="./recommendations.html">Suositukset</a></li>
+        </ul>
+    </div>
+    <h1>Tesaa ihotyyppisi</h1>
+    <form id="skincare-form">
+        <div>
+          <label>Kiristeleekö ihosi pesun jälkeen?</label><br>
+          <button type="button" class="answer" data-question="1" data-answer="kyllä">Kyllä</button>
+          <button type="button" class="answer" data-question="1" data-answer="ei">Ei</button>
+        </div>
+      
+        <div>
+          <label>Onko T-alue usein kasvoiltasi öljyinen?</label><br>
+          <button type="button" class="answer" data-question="2" data-answer="kyllä">Kyllä</button>
+          <button type="button" class="answer" data-question="2" data-answer="ei">Ei</button>
+        </div>
+      
+        <div>
+          <label>Näkyvätkö ihohuokosesi selkeästi, kun katsot peiliin?</label><br>
+          <button type="button" class="answer" data-question="3" data-answer="kyllä">Kyllä</button>
+          <button type="button" class="answer" data-question="3" data-answer="ei">Ei</button>
+        </div>
+      
+        <div>
+          <label>Onko ihollasi epäpuhtauksia: finnejä, näppylöitä, mustapäitä?</label><br>
+          <button type="button" class="answer" data-question="4" data-answer="ei yhtään">Ei yhtään</button>
+          <button type="button" class="answer" data-question="4" data-answer="vähän">Vähän</button>
+          <button type="button" class="answer" data-question="4" data-answer="paljon">Paljon</button>
+        </div>
+      
+        <button type="submit" id="submit">Lähetä</button>
+      </form>
+      <div id="result-text" style="display:none; margin-top: 20px;"></div>
+    <script src="./js/funktions.js"></script>
+</body>
+</html>

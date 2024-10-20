@@ -59,9 +59,9 @@ document.querySelectorAll('.answer').forEach(painike => {
     let skinType = '';
     if (answers[1] === 'kyllä' && answers[2] === 'ei' && answers[3] === 'ei' && answers[4] === 'ei yhtään') {
         skinType = 'kuiva';
-    } else if (answers[1] === 'ei' && answers[2] === 'kyllä' && answers[3] === 'kyllä' && answers[4] === 'paljon') {
+    } else if (answers[1] === 'ei' && answers[2] === 'kyllä' && answers[3] === 'kyllä' && answers[4] === 'jonkin verran') {
         skinType = 'rasvoittuva';
-    } else if (answers[1] === 'kyllä' && answers[2] === 'kyllä' && answers[3] === 'kyllä' && (answers[4] === 'vähän' || answers[4] === 'paljon')) {
+    } else if (answers[1] === 'kyllä' && answers[2] === 'kyllä' && answers[3] === 'kyllä' && (answers[4] === 'vähän' || answers[4] === 'jonkin verran')) {
         skinType = 'sekaiho';
     } else {
         skinType = 'normaali';

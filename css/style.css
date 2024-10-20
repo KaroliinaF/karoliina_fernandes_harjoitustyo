@@ -132,26 +132,41 @@ form {
 
 @media (max-width: 600px) {
   body {
-      font-size: 14px; 
+    font-size: 14px; 
   }
 
   form {
-      padding: 10px;
+    padding: 10px;
   }
 
   button {
-      width: 100%;
-      margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px;
   }
+
+  li {
+    display: block;
+    }
+
+    img {
+      width: 75%;
+    }
+
+    #submit {
+      width: 50%;
+    }
 }
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
   body {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   form {
-      padding: 15px;
+    padding: 15px;
   }
+
 }
